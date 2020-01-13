@@ -23,6 +23,23 @@ module.exports={
                 use: {
                   loader: 'html-loader'
                 }
+            },
+            {
+                test:/.css$/,
+                use:["style-loader","css-loader",'postcss-loader']
+            },
+            {
+                test: /\.less$/i, 
+                use: ['style-loader', 'css-loader', 'less-loader']
+            },
+            {
+                test:/\.(jpg|png|gif)$/i,
+                use:{
+                    loader:"file-loader",
+                    options: {
+                        outputPath: 'images/'
+                      }
+                }
             }
         ]
     },
