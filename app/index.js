@@ -1,11 +1,12 @@
 import React from 'react'
 import './index.less'
+import Home from './src/module/Home/index'
 
 class App extends React.Component {
   render() {
     return(
       <div>
-        <h1>Hello World</h1>
+        <Home />
       </div>
     )
   }
