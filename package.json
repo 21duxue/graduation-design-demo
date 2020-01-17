@@ -4,7 +4,9 @@
   "description": "a design for graduation",
   "main": "webpack.config.js",
   "dependencies": {
-    "bee-menus": "^2.0.3"
+    "bee-form-control": "^2.0.11",
+    "bee-menus": "^2.0.3",
+    "bee-navbar": "^2.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^9.7.3",
